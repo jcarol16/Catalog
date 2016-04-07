@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/contentApp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:background="@drawable/box_grid">
+
+        <ImageView
+            android:id="@+id/icon_app"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_vertical"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name_app"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="name_app"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:ellipsize="end"/>
+
+            <TextView
+                android:id="@+id/author_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Autor"/>
+
+            <TextView
+                android:id="@+id/price_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0.0"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

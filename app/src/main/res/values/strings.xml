@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Catalog</string>
+    <string name="category_title">Categoría</string>
+    <string name="connection_fail">No tiene conexión a internet, intente nuevamente</string>
+    <string name="connection_button_retry">Reintentar</string>
+    <string name="server_fail">Error del servidor, consulte nuevamente</string>
+</resources>
